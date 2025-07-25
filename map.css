@@ -1,0 +1,134 @@
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@700&family=Krona+One&family=Palanquin:wght@500&display=swap" rel="stylesheet">
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  flex: 33%;
+      padding: 30px;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.row {
+  display: flex;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.header {
+  background-color: #202231;
+  padding: 20px;
+}
+
+html {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    width: 100%;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+a {
+    color: darkorange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+h1  {
+    font-family: 'Krona One', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    margin: 50px, 0px, 50px, 0px;
+}
+
+h2 {
+     font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+    text-align: center;
+}
+
+p {
+    font-size: 34px;
+    font-family: 'Palanquin', sans-serif;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #202231;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;    
+}
+
+
+
+
+.zoom {
+    padding: 30px;
+  transition: transform 0.3s;
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+
+<!-- attributes>
+
+#banner {
+    width: 100%;
+}
+
+#characterdesign {
+    width: 40%;
+    height: auto;
+}
+
+#orangesec {
+    background-color: #FF5C0A;
+    color: white;
+}
+
+#orangesecnormal {
+    background-color: #FF7733;
+}
+
+#darkorangesec {
+    background-color: #FF5C0A;
+}
+
+
+#orangetext {
+    margin: 0px 150px 0px 150px;
+    text-align: center;
+}
+
+#whitesec {
+    background-color: white;
+}

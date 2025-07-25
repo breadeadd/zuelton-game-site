@@ -1,0 +1,114 @@
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@700&family=Krona+One&family=Palanquin:wght@500&display=swap" rel="stylesheet">
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  flex: 50%;
+      padding: 50px;
+    align-content: center;
+    
+}
+
+.row {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.header {
+  background-color: #202231;
+  padding: 20px;
+}
+
+html {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    width: 100%;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+a {
+    color: darkorange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+h1  {
+    font-family: 'Krona One', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    background-color: white;
+}
+
+h2 {
+     font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+}
+
+p {
+    font-size: 34px;
+    font-family: 'Palanquin', sans-serif;
+
+}
+
+footer {
+    background-color: #202231;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;    
+}
+
+
+<!-- attributes>
+
+#banner {
+    width: 100%;
+}
+
+#characterdesign {
+    width: 40%;
+    height: auto;
+}
+
+#orangesec {
+    background-color: #FF5C0A;
+    color: white;
+}
+
+#orangesecnormal {
+    background-color: #FF7733;
+}
+
+#darkorangesec {
+    background-color: #FF5C0A;
+}
+
+
+#orangetext {
+    margin: 0px 150px 0px 150px;
+    text-align: center;
+}
+
+#whitesec {
+    background-color: white;
+}

@@ -1,0 +1,161 @@
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@700&family=Krona+One&family=Palanquin:wght@500&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  flex: 33%;
+      padding: 50px;
+    align-content: center;
+    
+}
+    
+.row {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.header {
+  background-color: #202231;
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFFFFF;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: #202231;
+  font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(x-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+<!--colours>
+
+html {
+    background-color: DFE0E2;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    width: 100%;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+a {
+    color: darkorange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+h1  {
+    font-family: 'Krona One', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    background-color: white;
+}
+
+h2 {
+     font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+    
+}
+
+p {
+    font-size: 34px;
+    font-family: 'Palanquin', sans-serif;
+
+}
+
+footer {
+    background-color: #202231;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;    
+}
+
+
+<!-- attributes>
+
+#banner {
+    width: 100%;
+}
+
+#characterdesign {
+    width: 100%;
+    height:auto;
+    background-color: white;
+}
+
+#orangesec {
+    background-color: #FF5C0A;
+    color: white;
+}
+
+#orangesecnormal {
+    background-color: #FF7733;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    }
+
+#darkorangesec {
+    background-color: #FF5C0A;
+}
+
+
+#orangetext {
+    margin: 0px 150px 0px 150px;
+    text-align: center;
+}
+
+#whitesec {
+    background-color: white;
+}
